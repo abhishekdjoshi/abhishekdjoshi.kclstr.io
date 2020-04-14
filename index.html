@@ -459,6 +459,7 @@
         "Durga Aarti",
         "Durga Chalisa",
         "Durga Stotra",
+        "Durga Ashtottara Shatanama Stotra",
         "All",
         "Hanuman Aarti",
         "Hanuman Chalisa",
@@ -517,6 +518,10 @@
                     document.getElementById("myForm").action =
                       "/pages/durga/stotra.html";
                     break;
+                  case "Durga Ashtottara Shatanama Stotra":
+                    document.getElementById("myForm").action =
+                      "/pages/durga/shatanama_stotra.html";
+                    break;                
                   
                   case "Hanuman":
                     document.getElementById("myForm").action =
@@ -534,6 +539,12 @@
                     document.getElementById("myForm").action =
                       "/pages/hanuman/stotra.html";
                     break;
+                  
+                  case "All":
+                    document.getElementById("myForm").action =
+                      "/deity.html";
+                    break;                
+                  
                   default:
                     document.getElementById("myForm").action =
                       "/pages/comingsoon.html";
