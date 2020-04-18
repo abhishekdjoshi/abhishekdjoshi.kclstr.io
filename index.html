@@ -1,5 +1,3 @@
-<!-- Adding new code, added on 10 April 2020 at 5:50 PM -->
-<!DOCTYPE html>
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -15,10 +13,10 @@
     rel="canonical"
     href="https://kclstr.com/"
   />
-    <link
+    <!--<link
       href="https://fonts.googleapis.com/css?family=Poppins:400,500,700"
       rel="stylesheet"
-    />
+    /> -->
     <link href="css/main.css" rel="stylesheet" />
 
     <!-- Added on 18th Feb 2020 at 12:05 AM-->
@@ -124,22 +122,23 @@
       }
       /*Added above on 21 March 2020 at 8:10 PM */
     </style>
-    
 
-    <!-- Placing Google Analytics Tacking, placed on 11 April 2020 at 7:20 PM -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130612828-1"></script>
+    <!-- Google Analytics tracking added on 11 April 2020 at 6:40 PM -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-130612828-1"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'UA-130612828-1');
+      gtag("config", "UA-130612828-1");
     </script>
 
-   
-    
-    
+
   </head>
   <body>
     <div id="mySidenav" class="sidenav">
@@ -464,6 +463,7 @@
         "Hanuman Aarti",
         "Hanuman Chalisa",
         "Hanuman Stotra",
+        "Ganesh Panchratnam Stotra",
         "Shiva Aarti",
         "Shiva Tandava Stotra",
         "Maha Mrityunjaya Mantra"
@@ -521,7 +521,7 @@
                   case "Durga Ashtottara Shatanama Stotra":
                     document.getElementById("myForm").action =
                       "/pages/durga/shatanama_stotra.html";
-                    break;                
+                    break;
                   
                   case "Hanuman":
                     document.getElementById("myForm").action =
@@ -540,11 +540,20 @@
                       "/pages/hanuman/stotra.html";
                     break;
                   
+                  case "Ganesha":
+                    document.getElementById("myForm").action =
+                      "/pages/ganesh/all.html";
+                    break;
+                  case "Ganesha Panchratnam Stotra":
+                    document.getElementById("myForm").action =
+                      "/pages/ganesh/panchratnam_stotra.html";
+                    break;
+
                   case "All":
                     document.getElementById("myForm").action =
                       "/deity.html";
-                    break;                
-                  
+                    break;
+
                   default:
                     document.getElementById("myForm").action =
                       "/pages/comingsoon.html";
@@ -556,338 +565,3 @@
     </script>
   </body>
 </html>
-
-
-
-
-<!-- Old Codebase
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130612828-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-130612828-1');
-</script>
-
-    
-    <meta name="google-site-verification" content="f1VPQ1hUsfZL1oHgN8kCgnZuwj3fZehYVoLMuiOmC-g" />
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Abhishek Joshi - Product Manager </title>
-
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-    <link href="css/resume.min.css" rel="stylesheet">
-
-  </head>
-
-  <body id="page-top">
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Abhishek Joshi</span>
-        <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/ProfilePhotoAngel.jpg" alt="">
-        </span>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-          </li>
-           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#consulting">Consulting</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="https://kclstr.com/blog">Blog</a>
-            </li>
-        </ul>
-      </div>
-    </nav>
-
-    <div class="container-fluid p-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-        <div class="my-auto">
-          <h1 class="mb-0">Abhishek Joshi</h1>
-          <div class="lowerheading">Toronto, ON · (647) 654-2875 ·
-            <a href="mailto:abhishek@kclstr.com">abhishek@kclstr.com</a>
-          </div>
-          <br><br>
-          <p class="lead mb-3" align="justify">I am a customer-centric and data-driven product manager, who has worked at Samsung, Practo and Amazon, and who has launched web and app products currently used by millions of consumers and thousands of enterprises. 
-            I have deep experience in building and leading teams that drive product vision from inception to launch to scale. 
-            I have led and managed cross-functional teams of varying sizes from 6 to 15. <br><br> 
-            At a personal level, I am adventurous, risk-taker and love hiking, having hiked over 28 mountains spread across 4 continents and 10 countries.
-<br><br>
-          Below is what I spend most of my time working on:
-<li class="lowerheading" class="lead mb-0"> Identifying and prioritizing the right customer pain points to solve</li>
-<li class="lowerheading" class="lead mb-0"> Brainstorming and prioritizing solutions </li>
-<li class="lowerheading" class="lead mb-0"> Rapid prototyping and validating solution </li>
-<li class="lowerheading" class="lead mb-0"> Building MVP </li>
-<li class="lowerheading" class="lead mb-0"> Establishing product market fit</li>
-<li class="lowerheading" class="lead mb-0"> Creating the business model</li>
-<li class="lowerheading" class="lead mb-0"> Scaling to new markets and geographies </li>  </p></br>
-          <div class="social-icons">
-            <a href="https://www.linkedin.com/in/abhishekdjoshi/">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <hr class="m-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
-        <div class="my-auto">
-          <h2 class="mb-5">Experience</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Product Management Consultant </h3>
-              <div class="subheading mb-3">Lyvebee, Inc.</div>
-              <p class="lowerheading" class="lead mb-0" style="list-style-type:circle"> 
-                <li class="lowerheading" class="lead mb-0"> Work with leadership to build the product strategy and roadmap </li>
- <li class="lowerheading" class="lead mb-0"> Drive the loop of build, test and iterate, and establish product market fit </li>
-              </p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">2019 - Present</span>
-            </div>
-          </div>
-          
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Product Manager (Lead)</h3>
-              <div class="subheading mb-3">Amazon.com, Inc.</div>
-              <p class="lowerheading" class="lead mb-0" style="list-style-type:circle">
-                 <li class="lowerheading" class="lead mb-0"> Created revenue opportunity of $5MM/year by conceptualising and driving technical integration with top brands </li>
-                 <li class="lowerheading" class="lead mb-0"> Own roadmap, prioritisation, specification and adoption of a product (web/app) serving top 20% sellers </li>
-                 <li class="lowerheading" class="lead mb-0"> Increased customer registration by 5x by driving down the cost on onboarding on platform by 50% </li>
-                 <li class="lowerheading" class="lead mb-0"> Increased seller’s profits by 5% by launching a platform to analyse various what-if scenarios and take intelligent decisions </li>
-                 <li class="lowerheading" class="lead mb-0"> Reduced packing time by 2.5x and increased throughput by 1.4x by removing inefficiencies through product improvements </li>
-                 <li class="lowerheading" class="lead mb-0"> Steered 6 Functional Units to launch new tax per federal guidelines and educated 140k customers on compliance </li>
-            </p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">2017 - 2018</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Senior Product Manager </h3>
-              <div class="subheading mb-3">Practo Technologies Pte. Ltd.</div>
-              <p class="lowerheading" class="lead mb-0" style="list-style-type:circle">
-                 <li class="lowerheading" class="lead mb-0"> Developed strategy and business case, and convinced the leadership to enter insurance market </li>
-                 <li class="lowerheading" class="lead mb-0"> Owned product roadmap, feature prioritisation, product specification and adoption of payments platform (both on web and app) catering to 15k businesses, 180k providers and 2M users; administered cross-functional team of 15 </li>
-                 <li class="lowerheading" class="lead mb-0"> Increased merchant on-boarding from 2/day to 90/day by conceptualising and executing series of marketing campaigns </li>
-                 <li class="lowerheading" class="lead mb-0"> Trained 200+ sales and operations team; worked with 8 Business Units and 5 Functional Units (Sales, Operations etc.) </li>
-                 <li class="lowerheading" class="lead mb-0"> Reduced cart drop-off by 75% and drove online payments from 8% to 43% by simplifying the payment experience </li>
-                 <li class="lowerheading" class="lead mb-0"> Grew ARPU by 70% by building Recommendation Engine to recommend best offer to the user </li>
-                 <li class="lowerheading" class="lead mb-0"> Reduced churn by 40% and increased CSAT by 95% by shipping a suite of customer issue resolution tools </li>
-                 <li class="lowerheading" class="lead mb-0"> Drove new user acquisition by 2x month-on-month for 14 months by shipping a series of new features </li>
-                 <li class="lowerheading" class="lead mb-0"> Spearheaded negotiations with third-party payment partners, closed deals saving $400K for the employer </li>
-              </p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">2015 - 2017</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Product Manager </h3>
-              <div class="subheading mb-3">Edu-Tech Startup</div>
-              <p class="lowerheading" class="lead mb-0" style="list-style-type:circle">
-                 <li class="lowerheading" class="lead mb-0"> Launched an adaptive learning platform to assist students ace competitive exams, catering to 15k students </li>
-                 <li class="lowerheading" class="lead mb-0"> Growth hacked to achieve views of 100k/month and increase user registration to ~50k users </li>
-                 <li class="lowerheading" class="lead mb-0"> Revamped user registration flow to achieve 75% users completing 100% profile and 100% users completing 80% profile </li>
-                 <li class="lowerheading" class="lead mb-0"> Increased desired user activity by 5x through gamification and tapping competitive nature of students </li>
-              </p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">2013 - 2015</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Software Engineer </h3>
-              <div class="subheading mb-3">Samsung Electronics Co. Ltd.</div>
-              <p class="lowerheading" class="lead mb-0" style="list-style-type:circle">
-                 <li class="lowerheading" class="lead mb-0"> Worked on new product development in video space for Galaxy-series mobile devices (S2 to S5, Note to Note 4) </li>
-                 <li class="lowerheading" class="lead mb-0"> Commercialised 7 new video products that were 3x cheaper and 5x faster than existing benchmark by analysing market drivers, performing competitive analysis and translating customer needs into engineering requirements </li>
-                 <li class="lowerheading" class="lead mb-0"> Managed new features from technical definition, requirements gathering, development to versioning; administered 4 QA engineers to guarantee high quality at launch </li>
-                 <li class="lowerheading" class="lead mb-0"> Improved the speed by 18x and colour quality by 5x of video processing product by removing redundancies; negotiated architecture priorities across 3 teams and 16 engineers, while reducing project turnaround time by 50% </li>
-                 <li class="lowerheading" class="lead mb-0"> Reduced chip size by 10% and increased processing speed by 14x by implementing parallel processing in video compression chips; chosen by VP  from 500 employees to evangelise parallel processing across the organisation </li>
-              </p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary"> 2009 - 2012</span>
-            </div>
-          </div>
-
-        </div>
-
-      </section>
-
-
-      <hr class="m-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="consulting">
-        <div class="my-auto">
-          <h2 class="mb-5">Consulting</h2>
-
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Product Strategy at Verizon - business case on zero data for streaming partnering content providers’ videos</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Associate at DreamIt Ventures, New York – evaluated business plans in mobile/web and software services for accelerator</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Developed a pricing strategy by performing conjoint analysis for a new product for a leading firm in the US</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Mined data to identify key parameters affecting revenue drivers of a software giant in the US</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Wrote 15 columns and interviewed 2 national lawmakers and 3 Ambassadors on geo-political issues for national newspaper</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Founded an educational non-profit, recruited 28 tutors to assist 98 students; raised $25K in funding</li>
-          </ul>
-        </div>
-      </section>
-    
-          <hr class="m-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-        <div class="my-auto">
-          <h2 class="mb-5">Education</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">University of Chicago Booth School of Business</h3>
-              <div class="subheading mb-3">MBA</div>
-              <ul class="fa-ul mb-0">
-              <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Dean’s Honour List</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Listed in Maquis Who’s Who in the World - 2013 edition</li>
-            </ul>  
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">2012 - 2014</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Seoul National University</h3>
-              <div class="subheading mb-3">MS (Electrical Engineering and Computer Science)</div>
-              <ul class="fa-ul mb-0">
-              <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Samsung Global Scholar (selectivity: 15 selected from over 5000 applicants)</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Recipient of BK 21 scholarship, awarded to top 5% researchers in graduate program</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Top 3% of graduating class</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              One among 5 to be nominated for Best Thesis Award among 2000 theses</li>
-            </ul>  
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">2007 - 2009</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">NITK Surathkal</h3>
-              <div class="subheading mb-3">B.Tech (Electrical and Electronics Engineering)</div>
-              <ul class="fa-ul mb-0">
-              <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Canara Bank scholarship for top academic performance</li>
-            </ul>  
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">2003 - 2007</span>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-
-      <hr class="m-0">
-
-    <hr class="m-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="honours">
-        <div class="my-auto">
-          <h2 class="mb-5">Honours</h2>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Dean’s Honour List during MBA at The University of Chicago Booth School of Business</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Samsung Global Scholar, one among 15 selected from over 5000 applicants from all over the world</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Recipient of BK 21 scholarship, awarded to top 5% researchers in graduate program</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Top 3% of graduating class during Master of Science program</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              One among 5 to be nominated for Best Thesis Award among 2000 theses during MS program</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Canara Bank scholarship for top academic performance during undergraduate program</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Listed in Maquis Who’s Who in the World - 2013 edition</li>
-          </ul>
-        </div>
-      </section>
-
-    </div>
-
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>    
-    <script src="js/resume.min.js"></script>
-
-  </body>
-
-</html>
--->
