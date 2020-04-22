@@ -468,7 +468,8 @@
         "Ganesha Gayatri Mantra",
         "Shiva Aarti",
         "Shiva Tandava Stotra",
-        "Shiva Maha Mrityunjaya Mantra"
+        "Shiva Maha Mrityunjaya Mantra",
+        "Vishnu Sahasrnama Stotra"
       ];
 
       /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
@@ -557,6 +558,15 @@
                   case "Ganesha Gayatri Mantra":
                     document.getElementById("myForm").action =
                       "/pages/ganesh/gayatri_mantra.html";
+                    break;
+
+                  case "Vishnu":
+                    document.getElementById("myForm").action =
+                      "/pages/vishnu/all.html";
+                    break;
+                  case "Vishnu Sahasrnama Stotra":
+                    document.getElementById("myForm").action =
+                      "/pages/vishnu/sahasrnama_stotra.html";
                     break;
 
                   case "All":
