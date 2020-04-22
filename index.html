@@ -292,12 +292,7 @@
     </div>
     <!--Added above on 21 March 2020 at 8:40 PM-->
 
-    <script>
-      /*const choices = new Choices("[data-trigger]", {
-        searchEnabled: false,
-        itemSelectText: ""
-      });*/
-    </script>
+
     <!--Added below on 18th Feb 2020 at 12:08 AM-->
     <script>
       function openNav() {
@@ -469,7 +464,8 @@
         "Shiva Aarti",
         "Shiva Tandava Stotra",
         "Shiva Maha Mrityunjaya Mantra",
-        "Vishnu Sahasrnama Stotra"
+        "Vishnu Sahasrnama Stotra",
+        "Vishnu Shatpadi Stotra"
       ];
 
       /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
@@ -567,6 +563,10 @@
                   case "Vishnu Sahasrnama Stotra":
                     document.getElementById("myForm").action =
                       "/pages/vishnu/sahasrnama_stotra.html";
+                    break;
+                  case "Vishnu Shatpadi Stotra":
+                    document.getElementById("myForm").action =
+                      "/pages/vishnu/shatpadi_stotra.html";
                     break;
 
                   case "All":
