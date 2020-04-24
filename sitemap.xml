@@ -5,126 +5,139 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-
-
 <url>
   <loc>https://kclstr.com/</loc>
-  <lastmod>2020-04-23T01:36:32+00:00</lastmod>
+  <lastmod>2020-04-24T04:34:41+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://kclstr.com/mantras.html</loc>
-  <lastmod>2020-04-23T01:36:32+00:00</lastmod>
+  <lastmod>2020-04-24T04:34:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://kclstr.com/deity.html</loc>
-  <lastmod>2020-04-23T01:36:32+00:00</lastmod>
+  <lastmod>2020-04-24T04:34:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://kclstr.com/pages/hanuman/chalisa.html</loc>
-  <lastmod>2020-04-23T01:36:32+00:00</lastmod>
+  <lastmod>2020-04-24T04:34:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://kclstr.com/pages/shiva/maha-mrityunjaya.html</loc>
-  <lastmod>2020-04-23T01:36:32+00:00</lastmod>
+  <lastmod>2020-04-24T04:34:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://kclstr.com/pages/durga/stotra.html</loc>
-  <lastmod>2020-04-23T01:36:32+00:00</lastmod>
+  <lastmod>2020-04-24T04:34:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://kclstr.com/pages/hanuman/all.html</loc>
-  <lastmod>2020-04-23T01:36:32+00:00</lastmod>
+  <lastmod>2020-04-24T04:34:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://kclstr.com/pages/shiva/all.html</loc>
-  <lastmod>2020-04-23T01:36:32+00:00</lastmod>
+  <lastmod>2020-04-24T04:34:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://kclstr.com/pages/durga/all.html</loc>
-  <lastmod>2020-04-23T01:36:32+00:00</lastmod>
+  <lastmod>2020-04-24T04:34:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://kclstr.com/pages/shiva/tandava-stotra.html</loc>
-  <lastmod>2020-04-23T01:36:32+00:00</lastmod>
+  <lastmod>2020-04-24T04:34:41+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://kclstr.com/pages/shiva/aarti.html</loc>
-  <lastmod>2020-04-23T01:36:32+00:00</lastmod>
+  <lastmod>2020-04-24T04:34:41+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://kclstr.com/pages/hanuman/aarti.html</loc>
-  <lastmod>2020-04-23T01:36:32+00:00</lastmod>
+  <lastmod>2020-04-24T04:34:41+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://kclstr.com/pages/hanuman/stotra.html</loc>
-  <lastmod>2020-04-23T01:36:32+00:00</lastmod>
+  <lastmod>2020-04-24T04:34:41+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://kclstr.com/pages/durga/aarti.html</loc>
-  <lastmod>2020-04-23T01:36:32+00:00</lastmod>
+  <lastmod>2020-04-24T04:35:11+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://kclstr.com/pages/durga/chalisa.html</loc>
-  <lastmod>2020-04-23T01:36:32+00:00</lastmod>
+  <lastmod>2020-04-24T04:35:11+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://kclstr.com/pages/durga/shatanama_stotra.html</loc>
-  <lastmod>2020-04-23T01:36:32+00:00</lastmod>
+  <lastmod>2020-04-24T04:35:11+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://kclstr.com/pages/ganesh/panchratnam_stotra.html</loc>
-  <lastmod>2020-04-23T01:36:32+00:00</lastmod>
+  <lastmod>2020-04-24T04:35:11+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://kclstr.com/pages/ganesh/stuti.html</loc>
-  <lastmod>2020-04-23T01:36:32+00:00</lastmod>
+  <lastmod>2020-04-24T04:35:11+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://kclstr.com/pages/ganesh/gayatri_mantra.html</loc>
-  <lastmod>2020-04-23T01:36:32+00:00</lastmod>
+  <lastmod>2020-04-24T04:35:11+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://kclstr.com/pages/vishnu/sahasrnama_stotra.html</loc>
-  <lastmod>2020-04-23T01:36:32+00:00</lastmod>
+  <lastmod>2020-04-24T04:35:11+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://kclstr.com/pages/vishnu/shatpadi_stotra.html</loc>
-  <lastmod>2020-04-23T01:36:32+00:00</lastmod>
+  <lastmod>2020-04-24T04:35:11+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://kclstr.com/pages/vishnu/gayatri_mantra.html</loc>
-  <lastmod>2020-04-23T01:36:32+00:00</lastmod>
+  <lastmod>2020-04-24T04:35:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://kclstr.com/pages/lakshmi/dhanalakshmi_stotra.html</loc>
+  <lastmod>2020-04-24T04:35:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://kclstr.com/pages/lakshmi/chalisa.html</loc>
+  <lastmod>2020-04-24T04:35:11+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://kclstr.com/pages/ganesh/all.html</loc>
-  <lastmod>2020-04-23T01:36:32+00:00</lastmod>
+  <lastmod>2020-04-24T04:35:11+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://kclstr.com/pages/vishnu/all.html</loc>
-  <lastmod>2020-04-23T01:36:32+00:00</lastmod>
+  <lastmod>2020-04-24T04:35:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://kclstr.com/pages/lakshmi/all.html</loc>
+  <lastmod>2020-04-24T04:35:11+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
