@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Content Not Found</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta
+      name="description"
+      content="404. Content not available. Please find the relevant content on homepage."
+    />
+    <link rel="canonical" href="https://kclstr.com/404.html" />
+
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+      }
+
+      .topleft {
+        position: absolute;
+        top: 0;
+        left: 16px;
+      }
+
+      .bottomleft {
+        position: absolute;
+        bottom: 0;
+        left: 16px;
+      }
+
+      .middle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      hr {
+        margin: auto;
+        width: 40%;
+      }
+
+      /*Added on 18th Feb 2020 at 8:14 PM*/
+      body {
+        font-family: "Lato", sans-serif;
+      }
+      .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background: white;
+        overflow-x: hidden;
+        padding-top: 60px;
+      }
+      .sidenav a {
+        padding: 10px 10px 10px 40px; /*8px 8px 8px 32px*/
+        text-decoration: none;
+        font-size: 25px;
+        color: #000000;
+        display: block;
+      }
+
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        color: #000000;
+      }
+
+      #mainSideNav {
+        padding: 16px;
+      }
+
+      @media screen and (max-height: 100%) {
+        .sidenav {
+          padding-top: 15px;
+        }
+        .sidenav a {
+          font-size: 18px;
+        }
+      }
+    </style>
+
+    <!-- Google Analytics tracking added on 11 April 2020 at 6:40 PM -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-130612828-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-130612828-1");
+    </script>
+  </head>
+  <body>
+    <!--Added below on 18th Feb 2020 at 8:15 PM-->
+    <div class="bgimg">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="/">Home</a>
+        <a href="/mantras.html">Mantras</a>
+        <a href="/deity.html">Deities</a>
+        <a href="#">About</a>
+      </div>
+      <div id="mainSideNav">
+        <span
+          style="font-size:30px;cursor:pointer;color:#000000;"
+          onclick="openNav()"
+          >&#9776;</span
+        >
+      </div>
+
+      <script
+        async
+        src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+      ></script>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-9920198730228320",
+          enable_page_level_ads: true
+        });
+      </script>
+      <!--Added above on 18th Feb 2020 at 8:15 PM-->
+
+      <!-- <div class="bgimg"> -->
+      <div class="middle">
+        <h1 style="font-size:50px">Oops!</h1>
+        <h2>No Content Found</h2>
+        <br /><br />
+        <h5>
+          The page you are looking for is unavailable.
+        </h5>
+        <br /><br />
+        <a href="/"><h3>Go To Homepage</h3></a>
+      </div>
+    </div>
+
+    <!--Added below on 18th Feb 2020 at 8:17 PM-->
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+    </script>
+    <!--Added above on 18th Feb 2020 at 8:17 PM-->
+  </body>
+</html>
