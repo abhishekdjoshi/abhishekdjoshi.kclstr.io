@@ -7,7 +7,7 @@
     <title>Find the Mantra and Devotional Hymns of all Gods</title>
     <meta
     name="description"
-    content="Learn the mantras of your favorite deity or God. Read the mantra in English and Hindi or Sanskrit."
+    content="Find the mantra and devotional hymns of any God or Goddess. Read them in English and Hindi or Sanskrit."
   />
   <link
     rel="canonical"
@@ -469,7 +469,10 @@
         "Vishnu Gayatri Mantra",
         "Lakshmi - Dhanalakshmi Stotra",
         "Lakshmi Chalisa",
-        "Lakshmi - Mahalakshmi Ashtakam"
+        "Lakshmi - Mahalakshmi Ashtakam",
+        "Parvati Mata Aarti",
+        "Parvati Chalisa",
+        "Parvati Gowrisha Ashtakam"
       ];
 
       /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
@@ -589,9 +592,26 @@
                     document.getElementById("myForm").action =
                       "/pages/lakshmi/chalisa.html";
                     break;
-                    case "Lakshmi - Mahalakshmi Ashtakam":
+                  case "Lakshmi - Mahalakshmi Ashtakam":
                     document.getElementById("myForm").action =
                       "/pages/lakshmi/mahalakshmi_ashtakam.html";
+                    break;
+
+                  case "Parvati":
+                    document.getElementById("myForm").action =
+                      "/pages/parvati/all.html";
+                    break;
+                  case "Parvati Mata Aarti":
+                    document.getElementById("myForm").action =
+                      "/pages/parvati/aarti.html";
+                    break;
+                  case "Parvati Chalisa":
+                    document.getElementById("myForm").action =
+                      "/pages/parvati/chalisa.html";
+                    break;
+                  case "Parvati Gowrisha Ashtakam":
+                    document.getElementById("myForm").action =
+                      "/pages/parvati/gowrisha_ashtakam.html";
                     break;
 
                   case "All":
