@@ -475,7 +475,11 @@
         "Parvati Gowrisha Ashtakam",
         "Saraswati Aarti",
         "Saraswati Chalisa",
-        "Saraswati Kavach"
+        "Saraswati Kavach",
+        "Shani Chalisa",
+        "Shani Kavach",
+        "Shani Aarti",
+        "Shani Gayatri Mantra"
       ];
 
       /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
@@ -633,6 +637,28 @@
                     document.getElementById("myForm").action =
                       "/pages/saraswati/kavach.html";
                     break;    
+
+                  case "Shani":
+                    document.getElementById("myForm").action =
+                      "/pages/shani/all.html";
+                    break;
+                  case "Shani Chalisa":
+                    document.getElementById("myForm").action =
+                      "/pages/shani/chalisa.html";
+                    break;
+                  case "Shani Kavach":
+                    document.getElementById("myForm").action =
+                      "/pages/shani/kavach.html";
+                    break;
+                  case "Shani Aarti":
+                    document.getElementById("myForm").action =
+                      "/pages/shani/aarti.html";
+                    break;
+                  case "Shani Gayatri Mantra":
+                    document.getElementById("myForm").action =
+                      "/pages/shani/gayatri_mantra.html";
+                    break;
+                    
 
                   case "All":
                     document.getElementById("myForm").action =
