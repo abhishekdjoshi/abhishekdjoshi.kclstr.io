@@ -137,8 +137,11 @@
 
       gtag("config", "UA-130612828-1");
     </script>
-
-
+        <script>
+            document.addEventListener("contextmenu", function(e) {
+              e.preventDefault();
+            });
+          </script>
   </head>
   <body>
     <div id="mySidenav" class="sidenav">
@@ -479,7 +482,8 @@
         "Shani Chalisa",
         "Shani Kavach",
         "Shani Aarti",
-        "Shani Gayatri Mantra"
+        "Shani Gayatri Mantra",
+        "Shani Stotra"
       ];
 
       /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
@@ -657,6 +661,10 @@
                   case "Shani Gayatri Mantra":
                     document.getElementById("myForm").action =
                       "/pages/shani/gayatri_mantra.html";
+                    break;
+                  case "Shani Stotra":
+                    document.getElementById("myForm").action =
+                      "/pages/shani/stotra.html";
                     break;
                     
 
