@@ -488,7 +488,9 @@
         "Rahu Kavach",
         "Rahu Stotra",
         "Rahu Ashtotara Shatanamavali",
-        "Rahu Ashtotara Shatanam Stotra"
+        "Rahu Ashtotara Shatanam Stotra",
+        "Raghavendra Swami Anu Stotra",
+        "Raghavendra Swami Guru Stotra"
       ];
 
       /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
@@ -697,6 +699,18 @@
                       "/pages/rahu/stotra.html";
                     break;
         
+                  case "Raghavendra Swami":
+                    document.getElementById("myForm").action =
+                      "/pages/raghavendra/all.html";
+                    break;
+                  case "Raghavendra Swami Anu Stotra":
+                    document.getElementById("myForm").action =
+                      "/pages/raghavendra/anu_stotra.html";
+                    break;
+                  case "Raghavendra Swami Guru Stotra":
+                    document.getElementById("myForm").action =
+                      "/pages/raghavendra/guru_stotra.html";
+                    break;
                     
 
                   case "All":
