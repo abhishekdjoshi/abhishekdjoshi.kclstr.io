@@ -449,7 +449,6 @@
         "Shani",
         "Krishna",
         "Kuber",
-        "Rudra/Shiva",
         "Yama",
         "Yellamma",
         "Kamakhya Devi",
@@ -491,7 +490,9 @@
         "Rahu Ashtotara Shatanam Stotra",
         "Raghavendra Swami Anu Stotra",
         "Raghavendra Swami Guru Stotra",
-        "Raghavendra Swami Ashtotara Shatanam"
+        "Raghavendra Swami Ashtotara Shatanam",
+        "Pitra Deva Aarti",
+        "Pitra Deva Chalisa"
       ];
 
       /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
@@ -715,6 +716,19 @@
                   case "Raghavendra Swami Ashtotara Shatanam":
                     document.getElementById("myForm").action =
                       "/pages/raghavendra/ashtotara_shatanam.html";
+                    break;
+
+                  case "Yama":
+                    document.getElementById("myForm").action =
+                      "/pages/pitra/all.html";
+                    break;
+                  case "Pitra Deva Aarti":
+                    document.getElementById("myForm").action =
+                      "/pages/pitra/aarti.html";
+                    break;
+                  case "Pitra Deva Chalisa":
+                    document.getElementById("myForm").action =
+                      "/pages/pitra/chalisa.html";
                     break;
                     
 
