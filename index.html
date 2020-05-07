@@ -493,7 +493,11 @@
         "Raghavendra Swami Guru Stotra",
         "Raghavendra Swami Ashtotara Shatanam",
         "Pitra Deva Aarti",
-        "Pitra Deva Chalisa"
+        "Pitra Deva Chalisa",
+        "Ketu Kavach",
+        "Ketu Gayatri Mantra",
+        "Ketu Ashtotara Shatanamavali",
+        "Ketu Ashtotara Shatanam Stotram"
       ];
 
       /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
@@ -735,8 +739,28 @@
                     document.getElementById("myForm").action =
                       "/pages/pitra/chalisa.html";
                     break;
-                    
 
+                  case "Ketu":
+                    document.getElementById("myForm").action =
+                      "/pages/ketu/all.html";
+                    break;
+                  case "Ketu Kavach":
+                    document.getElementById("myForm").action =
+                      "/pages/ketu/kavach.html";
+                    break;
+                  case "Ketu Gayatri Mantra":
+                    document.getElementById("myForm").action =
+                      "/pages/ketu/gayatri_mantra.html";
+                    break;
+                  case "Ketu Ashtotara Shatanamavali":
+                    document.getElementById("myForm").action =
+                      "/pages/ketu/ashtotara_shatanam.html";
+                    break;
+                  case "Ketu Ashtotara Shatanam Stotram":
+                    document.getElementById("myForm").action =
+                      "/pages/ketu/shatanam_stotra.html";
+                    break;
+                    
                   case "All":
                     document.getElementById("myForm").action =
                       "/deity.html";
