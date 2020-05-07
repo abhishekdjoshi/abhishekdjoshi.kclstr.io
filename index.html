@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="Abhishek Joshi" content="kclstr.com" />
-    <title>Find the Mantra and Devotional Hymns of all Gods</title>
+    <title>Kclstr - A place to find any Mantras or Devotional Hymns</title>
     <meta
     name="description"
     content="Find the mantra and devotional hymns of any God or Goddess. Read them in English and Hindi or Sanskrit."
@@ -497,7 +497,8 @@
         "Ketu Kavach",
         "Ketu Gayatri Mantra",
         "Ketu Ashtotara Shatanamavali",
-        "Ketu Ashtotara Shatanam Stotram"
+        "Ketu Ashtotara Shatanam Stotra",
+        "Ketu Stotra"
       ];
 
       /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
@@ -756,9 +757,13 @@
                     document.getElementById("myForm").action =
                       "/pages/ketu/ashtotara_shatanam.html";
                     break;
-                  case "Ketu Ashtotara Shatanam Stotram":
+                  case "Ketu Ashtotara Shatanam Stotra":
                     document.getElementById("myForm").action =
                       "/pages/ketu/shatanam_stotra.html";
+                    break;
+                  case "Ketu Stotra":
+                    document.getElementById("myForm").action =
+                      "/pages/ketu/stotra.html";
                     break;
                     
                   case "All":
