@@ -445,7 +445,7 @@
         "Hanuman",
         "Rahu",
         "Ketu",
-        "Surya",
+        "Surya/Sun",
         "Shani",
         "Krishna",
         "Kuber",
@@ -503,7 +503,10 @@
         "Krishna Gopal Ashtakam",
         "Krishna Nandkumar Ashtakam",
         "Krishna Gayatri Mantras",
-        "Krishna Chalisa"
+        "Krishna Chalisa",
+        "Krishna Aarti",
+        "Surya/Sun Aditya Hridaya Stotra",
+        "Aditya Hridaya Stotra"
       ];
 
       /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
@@ -791,6 +794,10 @@
                     document.getElementById("myForm").action =
                       "/pages/krishna/chalisa.html";
                     break;
+                  case "Krishna Aarti":
+                    document.getElementById("myForm").action =
+                      "/pages/krishna/aarti.html";
+                    break;
 
                   case "Pitra Deva":
                     document.getElementById("myForm").action =
@@ -803,6 +810,19 @@
                   case "Pitra Deva Chalisa":
                     document.getElementById("myForm").action =
                       "/pages/pitra/chalisa.html";
+                    break;
+
+                  case "Surya/Sun":
+                    document.getElementById("myForm").action =
+                      "/pages/surya/all.html";
+                    break;
+                  case "Surya/Sun Aditya Hridaya Stotra":
+                    document.getElementById("myForm").action =
+                      "/pages/surya/aditya_hridaya.html";
+                    break;
+                  case "Aditya Hridaya Stotra":
+                    document.getElementById("myForm").action =
+                      "/pages/surya/aditya_hridaya.html";
                     break;
                     
                   case "All":
